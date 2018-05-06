@@ -1,0 +1,15 @@
+main {
+    display: grid;
+    position: relative;
+    margin: auto;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(1,100px);
+    justify-items: center;
+    
+}
+
+.card {
+    background-color: aqua;
+
+}
